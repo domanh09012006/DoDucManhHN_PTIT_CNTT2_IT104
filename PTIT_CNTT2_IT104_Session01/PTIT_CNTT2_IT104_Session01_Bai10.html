@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function groupAnagrams(words) {
+      const map = {};
+
+      for (let word of words) {
+        const key = word.split('').sort().join('');
+        if (!map[key]) {
+          map[key] = [];
+        }
+        map[key].push(word);
+      }
+
+      const result = Object.values(map);
+      console.log(result);
+    }
+
+    groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
+  </script>
+</body>
+</html>

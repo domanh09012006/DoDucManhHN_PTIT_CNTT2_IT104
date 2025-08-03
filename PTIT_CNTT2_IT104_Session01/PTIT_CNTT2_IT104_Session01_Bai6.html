@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // Ham tao user voi default parameter
+    function createUser(name, age = 18, role = "user") {
+      return {
+        name: name,
+        age: age,
+        role: role
+      };
+    }
+
+    // Test cases
+    console.log(createUser("Dev"));
+    // { name: "Dev", age: 18, role: "user" }
+
+    console.log(createUser("Nguyen Van A", 20, "Admin"));
+    // { name: "Nguyen Van A", age: 20, role: "Admin" }
+  </script>
+</body>
+</html>

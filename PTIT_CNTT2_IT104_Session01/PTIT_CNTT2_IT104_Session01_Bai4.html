@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkParity(a) {
+            if (typeof a !== "number" || isNaN(a)) {
+                console.log("a not is number");
+                return;
+            }
+
+            if (a % 2 === 0) {
+                console.log(`${a} is an even number`);
+            } else {
+                console.log(`${a} is odd`);
+            }
+        }
+
+        // Test cases
+        checkParity("hello"); // a not is number
+        checkParity(10);      // 10 is an even number
+        checkParity(7);       // 7 is odd
+    </script>
+</body>
+</html>
