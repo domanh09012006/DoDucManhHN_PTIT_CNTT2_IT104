@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function displayUserInfo(user) {
+            let name = user.name;
+            let age = user.age;
+            let city = "unknown";
+            let country = "unknown";
+            if (user.location) {
+                city = user.location.city;
+                country = user.location.country;
+            }
+            let title = "unknown";
+            let company = "unknown";
+            if (user.job) {
+                title = user.job.title;
+                company = user.job.company;
+            }
+            let email = "unknown";
+            let phone = "unknown";
+            if (user.contact) {
+                email = user.contact.email;
+                phone = user.contact.phone;
+            }
+            let result = name + " is " + age + " years old, lives in " + city + ", " + country +", works as " + title + " at " + company +
+                        ", and can be contacted via " + email + " or " + phone + ".";
+            return result;
+        }
+        let user1 = {
+            name: "Anna",
+            age: 30,
+            location: {
+                city: "Da Nang",
+                country: "Vietnam"
+            }
+        };
+        console.log(displayUserInfo(user1));
+        console.log(displayUserInfo(user2));
+    </script>
+</body>
+</html>
