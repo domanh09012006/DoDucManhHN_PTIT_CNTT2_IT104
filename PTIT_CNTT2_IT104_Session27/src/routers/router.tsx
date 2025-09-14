@@ -16,6 +16,7 @@ import Homes from "../page/Homes";
 import Products2 from "../page/Products2";
 import Details from "../page/Details";
 import Layout from "../components/Layout";
+import NotFound from "../page/NotFound";
 
 const routers = createBrowserRouter([
   // {
@@ -61,6 +62,10 @@ const routers = createBrowserRouter([
       { path: "products", element: <Products2 /> },
       { path: "details", element: <Details /> },
     ],
+  },
+   {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 export default routers;
