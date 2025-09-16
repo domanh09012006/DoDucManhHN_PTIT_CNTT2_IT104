@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "iPhone 15",
+      "image": "https://example.com/iphone15.jpg",
+      "price": 25000000,
+      "quantity": 10,
+      "created_at": "2025-09-16T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "product_name": "Samsung Galaxy S23",
+      "image": "https://example.com/galaxys23.jpg",
+      "price": 20000000,
+      "quantity": 15,
+      "created_at": "2025-09-15T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "product_name": "Xiaomi 13 Pro",
+      "image": "https://example.com/xiaomi13pro.jpg",
+      "price": 15000000,
+      "quantity": 20,
+      "created_at": "2025-09-14T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "product_name": "Oppo Find X6",
+      "image": "https://example.com/oppofindx6.jpg",
+      "price": 18000000,
+      "quantity": 8,
+      "created_at": "2025-09-13T11:15:00Z"
+    },
+    {
+      "id": 5,
+      "product_name": "Vivo X90",
+      "image": "https://example.com/vivox90.jpg",
+      "price": 17000000,
+      "quantity": 12,
+      "created_at": "2025-09-12T14:00:00Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "student_name": "Nguyễn Văn A",
+      "email": "vana@example.com",
+      "address": "Hà Nội",
+      "phone": "0123456789",
+      "status": true,
+      "created_at": "2025-09-01"
+    },
+    {
+      "id": 2,
+      "student_name": "Trần Thị B",
+      "email": "thib@example.com",
+      "address": "Hải Phòng",
+      "phone": "0987654321",
+      "status": false,
+      "created_at": "2025-09-02"
+    },
+    {
+      "id": 3,
+      "student_name": "Lê Văn C",
+      "email": "vanc@example.com",
+      "address": "Đà Nẵng",
+      "phone": "0909090909",
+      "status": true,
+      "created_at": "2025-09-03"
+    },
+    {
+      "id": 4,
+      "student_name": "Phạm Thị D",
+      "email": "thid@example.com",
+      "address": "TP.HCM",
+      "phone": "0911222333",
+      "status": true,
+      "created_at": "2025-09-04"
+    },
+    {
+      "id": 5,
+      "student_name": "Hoàng Văn E",
+      "email": "vane@example.com",
+      "address": "Huế",
+      "phone": "0933444555",
+      "status": false,
+      "created_at": "2025-09-05"
+    }
+  ]
+}
