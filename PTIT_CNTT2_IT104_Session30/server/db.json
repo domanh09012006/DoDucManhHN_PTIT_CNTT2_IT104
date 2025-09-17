@@ -1,0 +1,29 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "name": "Học React",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Học TypeScript",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Làm bài tập",
+      "status": true
+    },
+    {
+      "id": "bb37",
+      "name": "à",
+      "status": true
+    },
+    {
+      "id": "3fc5",
+      "name": "ád",
+      "status": true
+    }
+  ]
+}
