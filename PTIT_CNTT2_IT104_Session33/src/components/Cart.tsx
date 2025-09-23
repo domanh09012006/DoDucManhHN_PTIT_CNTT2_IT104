@@ -1,5 +1,5 @@
 // src/components/Cart.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState } from "../store";
 import { removeFromCart, updateQuantity } from "../reducers/cartReducer";
