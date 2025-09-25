@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "taskName": "Học Redux Toolkit",
+      "completed": false,
+      "priority": "low"
+    },
+    {
+      "id": "1758804894024",
+      "taskName": "hihi",
+      "completed": false,
+      "priority": "medium"
+    },
+    {
+      "id": "1758808668190",
+      "taskName": "học bài",
+      "completed": false,
+      "priority": "low"
+    }
+  ]
+}
