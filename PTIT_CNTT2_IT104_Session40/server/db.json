@@ -1,0 +1,27 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Điện thoại",
+      "description": "Các loại điện thoại",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "description": "Các loại laptop",
+      "status": "inactive"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "code": "SP001",
+      "name": "iPhone 15",
+      "category": "1",
+      "price": 25000000,
+      "image": "https://res.cloudinary.com/dx3nfbk9u/image/upload/v1759323662/fsnvrn5cuwcqkqvnr3ln.jpg",
+      "status": "active"
+    }
+  ]
+}
